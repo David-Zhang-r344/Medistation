@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_medication"
+        android:icon="@drawable/pill_main_screen_button"
+        android:title="@string/title_medication" />
+
+    <item
+        android:id="@+id/navigation_analysis"
+        android:icon="@drawable/graph_icon"
+        android:title="@string/title_analysis" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_devices"
+        android:icon="@drawable/watch_main_screen_button"
+        android:title="@string/title_devices" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile_main_screen_button"
+        android:title="@string/title_profile" />
+
+</menu>

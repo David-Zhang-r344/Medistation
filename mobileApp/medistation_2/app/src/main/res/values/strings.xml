@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Medistation</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_analysis">Analysis</string>
+    <string name="title_medication">Medication</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="add_symptom">Add symptom/side effect</string>
+
+    <string name="profile_dosage">Dosage</string>
+    <string name="profile_duration">yyyyMMdd yyyyMMdd</string>
+    <string name="profile_duration_title">Duration</string>
+    <string name="profile_med_name"> Med Name</string>
+    <string name="profile_emergency_contact"> Emergency Contact</string>
+    <string name="profile_symptoms">Symptoms</string>
+    <string name="profile_severity">Severity</string>
+
+    <string name="wristband_settings_title"> Wristband Settings</string>
+    <string name="wristband_battery_notification_level"> Battery Notification Level</string>
+    <string name="wristband_associated_symptoms"> Associated Symptoms</string>
+
+    <string name="dispenser_setting_title">Dispenser Setting</string>
+    <string name="dispenser_refill_title"> Refill Notification</string>
+    <string name="dispenser_calibration_title"> Calibration</string>
+
+    <string name="medication_name">Medication Name</string>
+    <string name="medication_schedule"> Medication Schedule</string>
+    <string name="medications_schedule_monday"> Mon </string>
+    <string name="medications_schedule_tuesday"> Tues </string>
+    <string name="medications_schedule_wednesday"> Wed </string>
+    <string name="medications_schedule_thursday"> Thurs </string>
+    <string name="medications_schedule_friday"> Fri </string>
+    <string name="medications_schedule_saturday"> Sat </string>
+    <string name="medications_schedule_sunday"> Sun </string>
+    <string name="medication_schedule_dosage_per_day"> Number of dosages per day:</string>
+    <string name="medication_schedule_add"> Add </string>
+    <string name="medication_dosage_amount"># of dosage</string>
+    <string name="medication_repeat_amount">Repeat current schedule for </string>
+    <string name="medication_number_of_weeks"># of weeks</string>
+    //MQTT Topics
+    <string name="batteryRequest">medistation2021/battery/request</string>
+    <string name="batteryThreshold">medistation2021/battery/threshold </string>
+    <string name="batterySend">medistation2021/battery/send</string>
+    <string name="wifiStatusSend">medistation2021/wifi-status/send</string>
+    <string name="wifiStatusRequestDispenser">medistation2021/wifi-status/request/dispenser</string>
+    <string name="wifiStatusRequestWristband">medistation2021/wifi-status/request/wristband</string>
+    <string name="healthStatusRequest">medistation2021/health-status/request</string>
+    <string name="healthStatusSend">medistation2021/health-status/send</string>
+    <string name="pillStatus">medistation2021/pill/status</string>
+    <string name="pillThreshold">medistation2021/pill/threshold</string>
+    <string name="pillSchedule">medistation2021/pill/schedule</string>
+</resources>
